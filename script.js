@@ -12,6 +12,6 @@ function promises(){
                     reject(name);
                 }
             })
-            .then((name)=> alert(`Welcome, ${name} You can vote.`))
-            .catch((name)=> alert(`Oh sorry ${name} You aren't old enough.`));
+            .then((name)=> alert(`Welcome, ${name}. You can vote.`))
+            .catch((name)=> alert(`Oh sorry ${name}. You aren't old enough.`));
         }
